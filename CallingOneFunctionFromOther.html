@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calling one function from other</title>
+</head>
+<body>
+<script type="text/javascript">
+	function firstfunc(){
+		document.write("this is first function<br />");
+	}
+	function secondfunc(){
+		document.write("this is second function<br />");
+	}
+	function thirdfunc(){
+		document.write("this function contains to other functions<br />");
+		firstfunc();
+		secondfunc();
+	} 
+	thirdfunc();
+</script>
+</body>
+</html>
