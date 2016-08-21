@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>simple form validation</title>
+	<script type="text/javascript">
+		function validator(){
+			if(document.First.check.checked){
+				alert("box is checked");
+			}
+			else{
+				alert("box is not checked");
+			}
+		}
+	</script>
+</head>
+<body>
+<form name="First">
+	<input type="checkbox" name="check" />
+	<input type="submit" name="submit" value="submit!!"" onclick="validator();" >		
+</form>
+</body>
+</html>
