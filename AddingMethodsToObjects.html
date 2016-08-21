@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>adding methods to object</title>
+	<script type="text/javascript">
+		function people(name,age){
+			this.name=name;
+			this.age=age;
+			this.workingyears=yearsLeft;
+		}
+		function yearsLeft(){
+			var years=65-this.age;
+			return years;
+		}
+		var may=new people("mayank",20);
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+		document.write(may.workingyears());
+	</script>
+</body>
+</html>
