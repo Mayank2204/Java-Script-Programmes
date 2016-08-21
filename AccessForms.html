@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accessing forms and elements</title>
+</head>
+<body>
+<form name="FirstForm">
+	username:<input type="text" name="username" />
+	password:<input type="password" name="password">
+	<input type="submit" name="submit" value="submit!!">
+</form>
+<script type="text/javascript">
+	var x=document.forms[0].length;
+	document.write(x+"<br>");
+	var y=document.FirstForm.username.name;
+	document.write(y);
+</script>
+</body>
+</html>
