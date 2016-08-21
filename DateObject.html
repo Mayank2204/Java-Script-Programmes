@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>date object</title>
+</head>
+<body>
+<script type="text/javascript">
+		function time(){
+			var now=new Date();
+			var h=now.getHours();
+			var m=now.getMinutes();
+			var s=now.getSeconds();
+			document.write(h+":"+m+":"+s+"<br>")
+		}
+
+		setInterval("time()",1000);
+
+</script>
+</body>
+</html>
